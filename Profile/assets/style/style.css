@@ -1,0 +1,99 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f3fb;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.picture img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.name {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  margin-top: 20px;
+}
+
+.info-box .toggle {
+  cursor: pointer;
+}
+
+.details ul {
+  list-style: none;
+}
+
+.projects .project {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.projects .project i {
+  margin-right: 10px;
+}
+
+.projects .project ul {
+  list-style: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.social-media a:hover {
+  background-color: #ddd;
+}
